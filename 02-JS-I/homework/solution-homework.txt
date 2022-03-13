@@ -1,0 +1,12 @@
+Variables: Una variable es la forma de almacenar el valor de algo para poder usarlo más tarde, podríamos llamarlo como si fuera un cofre, guardamos en ese cofre el dato que requerimos  y lo podremos utilizar cuando se necesite.
+
+Funciones:es algo similar a un procedimiento, es un conjunto de instrucciones que reciben una entrada y muestra un resultado.
+
+Strings:son bloques de texto, se definen a través de comillas sean doble o simple.
+
+Argumentos: son variables privadas dentro de las funciones, las cuales sirven para mandar informacion desde afuera de la función
+
+'return': la declaración return lo que nos permite es que se desarrolle toda la operación dentro de la función, se detenga, es decir no se siga ejecutando, y nos muestre un resultado en pantalla, también nos permite por asi decirlo acceder a  los datos fuera de la fución.
+
+Declaracion 'If': Ejecuta una sentencia si una condición es declarada como verdadera, sino se puede ejecutar otra sentencia.
+Valores booleanos: Estos valores hacen referencia a 2 opciones, verdadero o falso, se utilizan mas que todo para hacer  comparaciones entre 2 datos.
