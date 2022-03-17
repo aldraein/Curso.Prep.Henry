@@ -134,37 +134,37 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return num ^ 2;
+  return Math.pow(num,2);
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  Math.pow(num,3);
+  return Math.pow(num,3);
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  Math.pow(num,exponent);
+  return Math.pow(num,exponent);
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math.round(num);
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  Math.ceil(num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  Math.random();
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -172,18 +172,19 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero < 0){
-    return numero + "Es positivo";
-  }
-  else {
-    return numero + "Es negativo";
-  }
-  if (numero ===0){
+  if (numero === 0){
     return false;
   }
+  else if (numero < 0) {
+    return numero + "Es negativo";
+  }
+  else (numero > 0) 
+    return numero + "Es positivo";
+  }
   
   
-}
+  
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
