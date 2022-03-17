@@ -174,18 +174,16 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero === 0){
     return false;
-  }
-  else if (numero < 0) {
-    return numero + "Es negativo";
-  }
-  else (numero > 0) 
-    return numero + "Es positivo";
-  }
-  
-  
-  
-
-
+    }
+    else if (numero > 0){
+      return "Es positivo"
+    }
+    else (numero < 0);
+    
+    return "Es negativo"   
+   
+  } 
+    
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
