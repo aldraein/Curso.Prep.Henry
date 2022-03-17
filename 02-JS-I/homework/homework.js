@@ -248,9 +248,9 @@ function esVocal(letra){
    if (letra ==! "a", "e", "i","o", "u"){
     return "Dato incorrecto";
   }
-   if (letra === "a"||letra === "e"||letra === "i"||letra === "o"|| letra ==="u"){
+   else (letra === "a"||letra === "e"||letra === "i"||letra === "o"||letra ==="u");
     return "Es vocal"
-   } 
+   
    
 }
 
