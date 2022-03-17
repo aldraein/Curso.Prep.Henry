@@ -245,11 +245,11 @@ function esVocal(letra){
   if (letra.lenght > 1){
     return "Dato incorrecto";
   }
-   if (letra ==! "a", "e", "i", "o", "u"){
+   if (letra ==! "a", "e", "i","o", "u"){
     return "Dato incorrecto";
   }
    if (letra === "a"||letra === "e"||letra === "i"||letra === "o"|| letra ==="u"){
-    return "Es Vocal"
+    return "Es vocal"
    } 
    
 }
